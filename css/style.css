@@ -1,0 +1,120 @@
+
+.banner{
+	background: url(../images/bbbb.jpeg) center no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+
+
+.Tilted-Page-Scroll{
+	background: #333333;
+}
+.tps-section {
+    height: 500px;
+}
+
+.counter-section{
+	background: tomato;
+	padding: 70px 0;
+	text-align: center;
+	color: #ffffff;
+}
+
+.ANIMSITION-section{
+	background: #0ACC95;
+	padding: 80px;
+	text-align: center;
+}
+.animsition a{
+	color: #ffffff;
+	font-size: 30px;
+	padding: 0 80px;
+	border-radius: 10px;
+	transition: .5s;
+}
+
+.animsition a:hover{
+	text-decoration: none;
+	background: red;
+}
+.Wow-animate-section{
+	background: #AC80FF;
+	padding: 80px;
+}
+
+.wow img {
+	width: 250px;
+	height: 252px;
+	border-radius: 50%;
+}
+.text{
+	color: #ffffff;
+	font-size: 18px;
+	text-align: justify;
+}
+/*.paralax-bg-img{
+	background: url(../images/para.jpeg) center no-repeat;
+	background-size: cover;
+}*/
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+.para-wid{
+	padding: 158px 0;
+}
+.para-wid h1{
+    width: 190px;
+    margin: 0 auto;
+    background: black;
+    opacity: .3;
+    color: #ffffff;
+    padding: 18px 25px;
+
+}
+
+
+.slick-slider-section{
+	position: relative;
+	background: tomato;
+	padding: 100px 0;
+}
+
+.slick-prev{
+    position: absolute;
+    display: inline-block;
+    top: 80px;
+    left: -79px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: none;
+    display: block;
+    background: #000;
+}
+.slick-prev:focus ,.slick-next:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) ;
+}
+.slick-next{
+    position: absolute;
+    display: inline-block;
+    top: 80px;
+    right: -79px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    display: block;
+    background: #000;
+    transition: .1s;
+}
+
+.slick-prev:hover, .slick-next:hover{
+	background: #dddddd;
+}
+.Owl-carousel-section{
+	background: #B27DF9;
+	padding: 100px 0;
+}
